@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Aca va el header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh;
+}
+
+#principal-nav ul {
+    list-style: none;
+}
+
+.nav-item {
+    display: inline;
+    padding: 1vw;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Bree+Serif&family=Irish+Grover&family=Josefin+Sans:ital,wght@0,300;1,400&family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -36,6 +36,12 @@
         <div>
             <button class="principal-button">Get Started</button>
         </div>
+
+        <div id="hamburguer-icon">
+            <img src="./img/icon-hamburger.svg" alt="hamburguer">
+        </div>
+
+
     </header>
 
     <main>
@@ -79,22 +85,29 @@
         <!--Seccion 3: -->
         <h2 id="subtitle">What they've said</h2>
         <section id="section-three">
-            <div class="card">
+            <div id="card-1">
                 <img class="card-image" src="/img/avatar-anisha.png">
                 <h4>Anisha Le</h4>
                 <p class="card-info-text">“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
             </div>
-            <div class="card">
+            <div id="card-2">
                 <img class="card-image" src="/img/avatar-ali.png">
                 <h4>Ali Bravo</h4>
                 <p class="card-info-text">“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
             </div>
-            <div class="card">
+            <div id="card-3">
                 <img class="card-image" src="/img/avatar-richard.png">
                 <h4>Richard Watts</h4>
                 <p class="card-info-text">"Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
             </div>
         </section>
+
+        <div id="carrusel">
+            <input type="radio">
+            <input type="radio" checked>
+            <input type="radio">
+            <input type="radio">
+        </div>
 
         <div id="button-section-three">
             <button class="principal-button">Get Started</button>
@@ -103,7 +116,7 @@
 
         <section id="section-four">
             <div id="left-section-four">
-                <p>Simplify hoy your team words today.</p>
+                <p>Simplify how your team works today.</p>
             </div>
             <div id="right-section-four">
                 <button class="principal-button">Get Started</button>
@@ -124,7 +137,7 @@
                 </ul>
             </div>
         </div>
-        <div class="footer-menu">
+        <div class="footer-menu-1">
             <ul>
                 <li><a href="#" target="_blank">Home</a></li>
                 <li><a href="#" target="_blank">Pricing</a></li>
@@ -132,7 +145,7 @@
                 <li><a href="#" target="_blank">About us</a></li>
             </ul>
         </div>
-        <div class="footer-menu">
+        <div class="footer-menu-2">
             <ul>
                 <li><a href="#" target="_blank">Careers</a></li>
                 <li><a href="#" target="_blank">Comunity</a></li>
@@ -146,7 +159,7 @@
                     <input type="submit" id="button-footer" value="Go">
                 </form>
             </div>
-            <p>Copyright 2020. All Rights Reserved</p>
+            <p class="copyright">Copyright 2020. All Rights Reserved</p>
         </div>
     </footer>
 </body>
